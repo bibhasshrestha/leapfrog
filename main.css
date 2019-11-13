@@ -1,0 +1,5 @@
+table,th,td {border: 1px solid black;}
+table{width:100%;}
+th,td{padding:10px;}
+body{font-family: arial;}
+th{font-weight: normal;}
