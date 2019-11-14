@@ -1,13 +1,11 @@
-<<<<<<< HEAD
 table,th,td {border: 1px solid black; border-collapse: collapse;}
 table{width:100%;}
 th,td{padding:15px; margin: 10px;}
 body{font-family: arial;}
 th{font-weight: normal;}
-=======
 table,th,td {border: 1px solid black; border-collapse: collapse;}
 table{width:100%;}
 th,td{padding:15px;}
 body{font-family: arial;}
 th{font-weight: normal;}
->>>>>>> e56a943f3e0baa3c244410697b0fd903ff11cfdd
+
