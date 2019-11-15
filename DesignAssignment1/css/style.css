@@ -1,0 +1,71 @@
+.header-navbar .nav-item {
+    display: inline-block;
+    padding-right: 32px;
+}
+
+.header-navbar li a {
+    color: white;
+    font-size: 13px;
+}
+
+.about-header h3 {
+    text-transform: uppercase;
+    color: #7e918d
+}
+
+.left-navbar li {
+    display: inline-block;
+}
+
+.left-navbar li a {
+    color: #7e918d;
+    font-size: 13px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.nav-item-search {
+    display: inline-block;
+    padding-right: 0px;
+}
+
+.search-logo {
+    width: 19px;
+    height: 19px;
+}
+
+.top-body-wrapper {
+    padding-top: 50px;
+}
+
+.content {
+    padding-bottom: 20px;
+}
+
+.content>h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: red;
+}
+
+.content>p {
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: #7e918d;
+}
+
+.col3-left {
+    /* padding-top: 20px; */
+    width: inherit;
+    height: 400px;
+    background-color: red;
+}
+
+.left-side {
+    background: pink;
+    width: 300px;
+    height: inherit;
+}

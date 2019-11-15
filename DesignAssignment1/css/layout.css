@@ -1,0 +1,162 @@
+.whole-wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.header-wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header-top {
+    background-color: #76c7c1;
+}
+
+.header-top-wrapper {
+    width: 1178px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    /* background-color: #76c7c1; */
+}
+
+.top-container {
+    padding: 20px 0 20px 0;
+}
+
+.logo-wrapper {
+    width: 105px;
+    height: 32px;
+    float: left;
+}
+
+.header-navbar {
+    float: right;
+    padding-top: 8px;
+}
+
+.header-bottom {
+    background-color: #ececec;
+}
+
+.header-bottom-wrapper {
+    width: 1178px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+}
+
+.header-bottom-image {
+    background: #f3f3f3;
+}
+
+.bottom-image-wrapper {
+    width: 1178px;
+    height: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+}
+
+.bottom-image-icon img {
+    padding: 0%;
+    float: left;
+    /* margin: 0%; */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.about-header {
+    width: 105px;
+    height: 18px;
+    padding-top: 32px;
+}
+
+.left-navbar {
+    float: right;
+}
+
+.left-navbar li.home {
+    border-right-style: solid;
+    border-right-width: 1px;
+    padding-right: 10px;
+}
+
+.body-wrapper {
+    /* background: #f3f3f3; */
+    width: 100%;
+}
+
+.top-body {
+    background-color: #f3f3f3;
+}
+
+.top-body-wrapper {
+    width: 1178px;
+    height: 502px;
+    /* background-color: #f3f3f3; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.middle-body {
+    background-color: #ececec;
+}
+
+.middle-body-wrapper {
+    width: 1178px;
+    height: 397px;
+    /* background-color: #ececec; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-body {
+    background-color: #f3f3f3;
+}
+
+.bottom-body-wrapper {
+    width: 1178px;
+    height: 589px;
+    /* background-color: #ececec; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top-footer {
+    background-color: #76c7c1;
+}
+
+.top-footer-wrapper {
+    /* background-color: #76c7c1; */
+    width: 1178px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-footer {
+    background-color: #6bb4ad;
+}
+
+.bottom-footer-wrapper {
+    width: 1178px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
