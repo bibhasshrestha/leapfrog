@@ -1,70 +1,151 @@
-.whole-wrapper {
-    width: 100%;
-    height: 100vh;
-}
+/* Header */
 
-.header-wrapper {
+.header-top-container,
+.header-bottom-container {
+    max-width: 1174px;
+    height: 80px;
     margin: 0 auto;
-    width: 100%;
+    padding: 0;
 }
 
-.header-top {
-    background-color: #76c7c1;
+.logo-wrapper,
+.header-navigation {
+    display: inline-block;
+    padding: 20px 0px;
 }
 
-.header-top-wrapper {
-    width: 1178px;
-    height: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0%;
-    /* background-color: #76c7c1; */
+.details-wrapper span {
+    font-style: italic;
+
+
 }
 
-.top-container {
-    padding: 20px 0 20px 0;
-}
-
-.logo-wrapper {
-    width: 105px;
-    height: 32px;
-    float: left;
-}
-
-.header-navbar {
+.header-navigation {
     float: right;
-    padding-top: 8px;
 }
 
-.header-bottom {
-    background-color: #ececec;
+.header-navigation ul li {
+    display: inline-block;
 }
 
-.header-bottom-wrapper {
-    width: 1178px;
-    height: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0%;
-}
-
-.header-bottom-image {
-    background: #f3f3f3;
-}
-
-.bottom-image-wrapper {
-    width: 1178px;
-    height: 13px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0%;
-}
-
-.bottom-image-icon img {
-    padding: 0%;
+.header-about {
     float: left;
-    /* margin: 0%; */
+    padding-top: 30px;
 }
+
+.left-navbar {
+    float: right;
+}
+
+.triangle-image {
+    max-width: 1174px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+/* Body */
+
+.top-body-container {
+    max-width: 1174px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.col3-left {
+    padding: 70px 0;
+}
+
+.left-container {
+    float: left;
+}
+
+.right-container {
+    float: right;
+}
+
+.middle {
+    float: left;
+    max-width: 580px;
+    margin-right: 20px;
+}
+
+.col3-inner-right {
+    float: right;
+    max-width: 290px;
+}
+
+
+/* Our Team */
+
+.our-team-wrapper {
+    max-width: 1174px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.block {
+    position: relative;
+    display: inline-block;
+    max-width: 260px;
+    margin-right: 29px;
+}
+
+.block:last-child {
+    margin-right: 0px;
+}
+
+
+/* best solution */
+
+.best-solution-container,
+.happy-clients-container,
+.footer-container {
+    max-width: 1174px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.clients-list ul {
+    padding: 35px 0;
+}
+
+.clients-list ul li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.clients-list ul li:last-child {
+    padding-right: 0;
+}
+
+.block-footer {
+    display: inline-block;
+    padding: 22px 0px;
+}
+
+.blog-footer {
+    float: right;
+    padding: 22px 0;
+}
+
+.hold-blog {
+    display: inline-block;
+    padding-top: 23px;
+}
+
+.left {
+    float: left;
+    padding: 20px 0;
+}
+
+.right {
+    float: right;
+    padding: 20px 0;
+}
+
+
+/* Clearfix */
 
 .clearfix:before,
 .clearfix:after {
@@ -74,89 +155,4 @@
 
 .clearfix:after {
     clear: both;
-}
-
-.about-header {
-    width: 105px;
-    height: 18px;
-    padding-top: 32px;
-}
-
-.left-navbar {
-    float: right;
-}
-
-.left-navbar li.home {
-    border-right-style: solid;
-    border-right-width: 1px;
-    padding-right: 10px;
-}
-
-.body-wrapper {
-    /* background: #f3f3f3; */
-    width: 100%;
-}
-
-.top-body {
-    background-color: #f3f3f3;
-}
-
-.top-body-wrapper {
-    width: 1178px;
-    height: 502px;
-    /* background-color: #f3f3f3; */
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.middle-body {
-    background-color: #ececec;
-}
-
-.middle-body-wrapper {
-    width: 1178px;
-    height: 397px;
-    /* background-color: #ececec; */
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bottom-body {
-    background-color: #f3f3f3;
-}
-
-.bottom-body-wrapper {
-    width: 1178px;
-    height: 589px;
-    /* background-color: #ececec; */
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.footer-wrapper {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.top-footer {
-    background-color: #76c7c1;
-}
-
-.top-footer-wrapper {
-    /* background-color: #76c7c1; */
-    width: 1178px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bottom-footer {
-    background-color: #6bb4ad;
-}
-
-.bottom-footer-wrapper {
-    width: 1178px;
-    height: 50px;
-    margin-left: auto;
-    margin-right: auto;
 }

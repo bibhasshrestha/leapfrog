@@ -2,16 +2,16 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, "Times New Roman";
+    text-decoration: none;
+    list-style-type: none;
+    color: #828e8e;
+    line-height: 1.5rem;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 38px;
 }
 
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
+h2.super {
+    color: #e74d4f;
 }
